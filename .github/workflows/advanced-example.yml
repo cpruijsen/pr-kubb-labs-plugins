@@ -40,9 +40,10 @@ jobs:
         run: pnpm build
 
       - name: Generate Kubb Studio snapshot
-        uses: kubb-labs/action@cbaf96734143b8fb536af46d18d963187f3a1a9c # feat: support working directory
+        uses: kubb-labs/action@5a30ce5ae64fbcc5516d49b3398f6a8f2484c126 # feat: support working directory
         with:
           token: ${{ secrets.KUBB_TOKEN }}
           working-directory: examples/advanced
+          config: 'configs/kubb.config.ts'
         env:
           KUBB_STUDIO_URL: https://dev.kubb.studio
