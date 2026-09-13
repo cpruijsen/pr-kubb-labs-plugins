@@ -44,3 +44,5 @@ jobs:
         with:
           token: ${{ secrets.KUBB_TOKEN }}
           working-directory: examples/advanced
+        env:
+          KUBB_STUDIO_URL: https://dev.kubb.studio
