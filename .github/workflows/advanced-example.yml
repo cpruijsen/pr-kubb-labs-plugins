@@ -40,7 +40,7 @@ jobs:
         run: pnpm build
 
       - name: Generate Kubb Studio snapshot
-        uses: kubb-labs/action@e91a5a57eced95b18da2bddd345e7c25db52b1cf # feat: support working directory
+        uses: kubb-labs/action # feat: support working directory
         with:
           token: ${{ secrets.KUBB_TOKEN }}
           working-directory: examples/advanced
