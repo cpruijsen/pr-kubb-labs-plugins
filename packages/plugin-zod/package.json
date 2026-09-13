@@ -73,7 +73,7 @@
     "@internals/shared": "workspace:*",
     "@internals/utils": "workspace:*",
     "kubb": "catalog:",
-    "zod": "^4.0.0"
+    "zod": "^4.6.1"
   },
   "peerDependencies": {
     "kubb": "catalog:",

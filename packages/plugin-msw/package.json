@@ -93,7 +93,7 @@
     "@internals/shared": "workspace:*",
     "@internals/utils": "workspace:*",
     "kubb": "catalog:",
-    "msw": "^2.0.0"
+    "msw": "^2.15.0"
   },
   "peerDependencies": {
     "kubb": "catalog:",

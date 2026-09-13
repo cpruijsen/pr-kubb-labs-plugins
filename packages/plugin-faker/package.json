@@ -83,7 +83,7 @@
     "@kubb/plugin-ts": "workspace:^"
   },
   "devDependencies": {
-    "@faker-js/faker": "^10.0.0",
+    "@faker-js/faker": "^10.6.0",
     "@internals/shared": "workspace:*",
     "@internals/utils": "workspace:*",
     "kubb": "catalog:"
