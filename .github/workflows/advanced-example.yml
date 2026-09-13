@@ -1,4 +1,4 @@
-name: Advanced example
+name: Advanced Studio Connection
 
 on:
   workflow_dispatch:
@@ -40,7 +40,7 @@ jobs:
         run: pnpm build
 
       - name: Generate Kubb Studio snapshot
-        uses: kubb-labs/action@d9b37a832b124fe0fa4bda9042be274f98e42f95 # feat: support working directory
+        uses: kubb-labs/action@e91a5a57eced95b18da2bddd345e7c25db52b1cf # feat: support working directory
         with:
           token: ${{ secrets.KUBB_TOKEN }}
           working-directory: examples/advanced
